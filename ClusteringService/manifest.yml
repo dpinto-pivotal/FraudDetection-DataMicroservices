@@ -1,7 +1,7 @@
 ---
 applications:
 - name: clustering-service
-  memory: 1024MB
+  memory: 2048M
   instances: 1
   host: clustering-service
   path: build/libs/ClusteringService-1.0.jar

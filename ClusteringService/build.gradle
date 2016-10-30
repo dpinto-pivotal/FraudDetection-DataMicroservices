@@ -94,7 +94,7 @@ dependencies {
 		exclude group: 'com.fasterxml.jackson.core'
 	}
 
-	compile ('com.redislabs:spark-redis:0.1.1'){
+	compile ('com.redislabs:spark-redis:0.3.2'){
     	exclude group: 'org.slf4j'	
 		exclude group: 'org.scala-lang'
 		exclude group: 'org.apache.spark'	
